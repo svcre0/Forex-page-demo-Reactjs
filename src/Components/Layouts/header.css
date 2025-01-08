@@ -1,0 +1,82 @@
+.header {
+display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  background-color: #000000;
+  border-bottom: 1px solid rgba(50, 45, 16, 0.843);
+  padding: 0 20px;  
+  }
+
+  .logo {
+  display: flex;
+  align-items: center;
+  }
+
+  .logo img {
+  height: 50px;
+  margin-right: 10px;
+  }
+
+  .nav-links {
+  display: flex;
+  gap: 20px;
+  }
+
+  .header-optionLink {
+  color: rgb(234, 234, 234);
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+  white-space: nowrap;
+  position: relative;
+  }
+
+
+  .header-optionLink:hover {
+  color: rgb(139, 122, 23);
+  }
+
+
+  .header-homeLink {
+  color: rgb(139, 122, 23);
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+  white-space: nowrap;
+  position: relative;
+  }
+
+  
+  .header-homeLink:hover {
+  color: rgb(241, 241, 241);
+  }
+
+
+  .header-homeLink::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: rgb(139, 122, 23);
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  }
+
+
+  .header-homeLink:hover::after {
+  transform: scaleX(1);
+  }
+  @media (max-width: 600px) {
+  .header {
+  padding: 10px;
+  }
+  .nav-links {
+  gap: 10px;
+  }
+  .header-optionLink {
+  font-size: 14px;
+  }
+  }
+  

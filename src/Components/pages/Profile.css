@@ -1,0 +1,87 @@
+.profile-container {
+  display: flex;
+  height: 100vh;
+  background-color: #f0f0f0;
+  }
+  .sidebar {
+  width: 250px;
+  background-color: rgb(79, 79, 79);
+  color: gold;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(56, 47, 47, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-right: 1px solid white;
+  }
+  .profile-photo {
+  margin-top: 20px;
+  margin-left: 105px;
+  }
+  .profile-photo img {
+  height: 45px;
+  width: 50px;
+  border-radius: 50%;
+  border: 1px solid white;
+  }
+  .user-details, .wallet-section {
+  margin-bottom: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  }
+  .user-details p, .wallet-section p {
+  margin: 5px 0;
+  font-size: 18px;
+  }
+  button:hover {
+  background-color: #0b435d;
+  }
+  svg {
+  margin-left: 113px;
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  }
+  .sidebar button {
+  margin-left: 65px;
+  margin-top: 10px;
+  width: 120px;
+  height: 35px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(148, 148, 45);
+  border: none;
+  align-items: center;
+  border-radius: 555px;
+  }
+  .center-content {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(181, 178, 178);
+  background-color: rgba(4, 4, 4, 0.875);
+  font-weight: 700;
+  }
+  .trading-table {
+  width: 100%;
+  max-width: 600px;
+  border-collapse: collapse;
+  margin-top: 10px;
+  }
+  .trading-table th, .trading-table td {
+  border: 1px solid rgb(85, 60, 10);
+  padding: 10px;
+  text-align: center;
+  }
+  .trading-table th {
+  background-color: rgb(170, 150, 19);
+  color: rgb(0, 0, 0);
+  }
+  
