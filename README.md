@@ -1,5 +1,5 @@
 About the Application
-This Website is built with React.js, and it includes routing using React Router to navigate between the Profile and Settings pages. Here's a brief breakdown of the navigation flow:
+This Website is built with REACT.JS, and it includes routing using React Router to navigate between the Profile and Settings pages. Here's a brief breakdown of the navigation flow:
 
 Profile Page
 The Profile page allows users to view and manage their account information.
